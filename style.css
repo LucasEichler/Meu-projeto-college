@@ -1,0 +1,191 @@
+/* Estilo geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #000;
+  height: 100vh;
+}
+
+.interface {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.btn-contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #f7971d;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+h2.titulo {
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  font-size: 38px;
+  text-align: center;
+}
+
+h2.titulo span {
+  color: #f7971d;
+}
+
+h3 {
+  color: #fff;
+  line-height: 40px;
+}
+h3 .especialidade .especialidades-box {
+  color: #fff;
+  margin-top: 150px;
+}
+
+/* Estilo do cabeçalho */
+header {
+  padding: 40px 4%;
+}
+
+header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  color: #5c5c5c;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+header a:hover {
+  color: #fff;
+  transform: scale(1.05);
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 40px;
+}
+
+.btn-contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #f7971d;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn-contato button:hover {
+  box-shadow: 0px 0px 8px #f7991d;
+  transform: scale(1.05);
+}
+
+header .logo {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #f7971d;
+}
+/* Estilo do Topo  do site*/
+section.topo-do-site {
+  padding: 20px 4%;
+}
+/* aqui deu problema com a cor */
+section.topo-do-site .flex {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  gap: 30px;
+  max-height: 600px;
+  flex-wrap: wrap;
+}
+
+.topo-do-site h1 {
+  color: #fff;
+  font-size: 35px;
+  margin-top: 50px;
+  line-height: 30px;
+  height: 1px 150px;
+}
+
+.topo-do-site h1 span {
+  color: #f7971d;
+}
+
+.topo-do-site h1 .txt-topo-site p {
+  color: #fff;
+  margin: 40px 0px;
+}
+
+.topo-do-site .img-topo-site img {
+  position: fixed;
+  margin-left: 725px;
+  margin-bottom: 700px;
+  margin-top: 20px;
+  width: 20rem;
+  animation: fluturar 2s ease-in-out infinite alternate;
+}
+@keyframes fluturar {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 10px;
+  }
+}
+
+/* Estilo especialidades */
+section.especialidades {
+  padding: 40px 4%;
+  line-height: 180px;
+}
+
+.especialidade .especialidades-box {
+  color: #fff;
+  padding: 40px;
+  line-height: 30px;
+}
+
+/* Estilo formulário */
+
+section.formulario {
+  padding: 80px 4%;
+}
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+form input {
+  width: 100%;
+  justify-content: center;
+  background-color: #242424;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 18px;
+}
